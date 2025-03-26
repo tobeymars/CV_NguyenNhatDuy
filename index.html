@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Nguyễn Nhất Duy</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .cv-container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .header {
+            text-align: center;
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .profile-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 20px;
+            border: 4px solid #2c3e50;
+        }
+        .header-text {
+            text-align: left;
+        }
+        .header h1 {
+            margin: 0;
+            color: #2c3e50;
+        }
+        .section {
+            margin-top: 20px;
+        }
+        .section-title {
+            color: #2980b9;
+            border-bottom: 1px solid #2980b9;
+            padding-bottom: 5px;
+        }
+        .contact-info, .education, .objective, .skills, .experience {
+            margin-bottom: 15px;
+        }
+        .skill-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .skill-badge {
+            background-color: #3498db;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="cv-container">
+        <div class="header">
+            <img src="/images/profile/nguyen-nhat-duy.jpg" alt="Nguyễn Nhất Duy" class="profile-image">
+            <div class="header-text">
+                <h1>NGUYỄN NHẤT DUY</h1>
+                <p>Sinh viên Công nghệ Thông tin | Chuyên ngành Phần Mềm</p>
+            </div>
+        </div>
+
+        <div class="section contact-info">
+            <h2 class="section-title">THÔNG TIN CÁ NHÂN</h2>
+            <p>
+                <strong>Ngày sinh:</strong> 05/01/2003<br>
+                <strong>Trường:</strong> Đại học Công nghệ Thành phố Hồ Chí Minh (HUTECH)<br>
+                <strong>Chuyên ngành:</strong> Kỹ thuật Phần Mềm - Năm học: 4<br>
+                <strong>Mục tiêu nghề nghiệp:</strong> Tìm kiếm vị trí Back-end .NET
+            </p>
+        </div>
+
+        <div class="section skills">
+            <h2 class="section-title">KỸ NĂNG</h2>
+            <div class="skill-list">
+                <span class="skill-badge">C#</span>
+                <span class="skill-badge">.NET Core</span>
+                <span class="skill-badge">ASP.NET</span>
+                <span class="skill-badge">SQL Server</span>
+                <span class="skill-badge">Entity Framework</span>
+                <span class="skill-badge">Web API</span>
+                <span class="skill-badge">HTML/CSS</span>
+                <span class="skill-badge">JavaScript</span>
+            </div>
+        </div>
+
+        <div class="section education">
+            <h2 class="section-title">GIÁO DỤC</h2>
+            <p>
+                <strong>Đại học HUTECH</strong><br>
+                Chuyên ngành: Kỹ thuật Phần Mềm<br>
+                Thời gian: 2020 - 2024 (Dự kiến tốt nghiệp)
+            </p>
+        </div>
+
+        <div class="section experience">
+            <h2 class="section-title">KINH NGHIỆM HỌC TẬP VÀ DỰ ÁN</h2>
+            <p>
+                <strong>Dự Án Quản Lý Sinh Viên - .NET Core</strong><br>
+                - Phát triển ứng dụng quản lý thông tin sinh viên sử dụng C# và .NET Core<br>
+                - Thiết kế cơ sở dữ liệu quan hệ với SQL Server<br>
+                - Xây dựng Web API để quản lý và tương tác dữ liệu
+            </p>
+            <p>
+                <strong>Thực Tập Tại Công Ty Phần Mềm</strong><br>
+                - Hỗ trợ phát triển các module back-end trong môi trường .NET<br>
+                - Tham gia kiểm thử và debugging các ứng dụng<br>
+                - Làm quen với quy trình phát triển phần mềm chuyên nghiệp
+            </p>
+        </div>
+
+        <div class="section objective">
+            <h2 class="section-title">MỤC TIÊU NGHỀ NGHIỆP</h2>
+            <p>
+                Là một sinh viên năm cuối chuyên ngành Phần Mềm, tôi mong muốn được làm việc tại vị trí Back-end .NET. 
+                Tôi có niềm đam mê với công nghệ, luôn mong muốn học hỏi và phát triển các giải pháp phần mềm hiệu quả.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
